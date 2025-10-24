@@ -260,14 +260,6 @@ pulsetrack-backend/
 - The server uses nodemon for automatic restart on file changes
 - All routes are prefixed with `/api`
 
-## Deployment
-
-To deploy to production:
-
-1. Set `NODE_ENV=production` in your `.env`
-2. Use a MongoDB cloud service (MongoDB Atlas recommended)
-3. Deploy to a hosting service (Heroku, Railway, Render, etc.)
-4. Update the `MONGODB_URI` environment variable with your production database URL
 
 ## License
 
@@ -275,4 +267,4 @@ MIT
 
 ## Support
 
-For issues or questions, please open an issue in the repository.
+
